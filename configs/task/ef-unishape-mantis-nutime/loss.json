@@ -1,0 +1,14 @@
+{
+    "parameters": {
+        "losses": [
+            "configs/task/ef-unishape-mantis-nutime/losses/loss_1.json"
+        ],
+        "weights": [
+            1.0
+        ]
+    },
+    "class": "CompositeLoss",
+    "module": "src.loss.base",
+    "config_name": "loss",
+    "path": "configs/task/ef-unishape-mantis-nutime/loss.json"
+}

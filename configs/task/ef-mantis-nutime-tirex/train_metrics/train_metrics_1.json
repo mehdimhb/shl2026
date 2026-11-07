@@ -1,0 +1,9 @@
+{
+    "parameters": {
+        "num_classes": 8
+    },
+    "class": "HARAccuracy",
+    "module": "src.metric.metrics",
+    "config_name": "train_metrics_1",
+    "path": "configs/task/ef-mantis-nutime-tirex/train_metrics/train_metrics_1.json"
+}

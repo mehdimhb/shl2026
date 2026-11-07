@@ -1,0 +1,14 @@
+{
+    "parameters": {
+        "model": "configs/task/head-unishape/model.json",
+        "data": "configs/task/head-unishape/data.json",
+        "loss": "configs/task/head-unishape/loss.json",
+        "metric": "configs/task/head-unishape/metric.json",
+        "optimizer": "configs/task/head-unishape/optimizer.json",
+        "task_config": "configs/task/head-unishape/task_config.json"
+    },
+    "class": "Task",
+    "module": "src.task.task",
+    "config_name": "task",
+    "path": "configs/task/head-unishape/task.json"
+}

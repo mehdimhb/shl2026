@@ -1,0 +1,9 @@
+{
+    "parameters": {
+        "num_classes": 8
+    },
+    "class": "HARF1Score",
+    "module": "src.metric.metrics",
+    "config_name": "eval_metrics_2",
+    "path": "configs/task/ef-mantis-nutime-tirex/eval_metrics/eval_metrics_2.json"
+}

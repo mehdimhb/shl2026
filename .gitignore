@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+.ruff_cache/
+
+# Data, pretrained weights, and run outputs are not versioned
+/dataset/
+/weights/
+/experiments/
+/logits/
+/UniShape-base/
+checkpoints/
+lightning_logs/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Restored locally, see README.md
+/src/model/uni_shape/
+
+# OS
+.DS_Store

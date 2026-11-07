@@ -1,0 +1,14 @@
+{
+    "parameters": {
+        "model": "configs/task/head-mantisv2/model.json",
+        "data": "configs/task/head-mantisv2/data.json",
+        "loss": "configs/task/head-mantisv2/loss.json",
+        "metric": "configs/task/head-mantisv2/metric.json",
+        "optimizer": "configs/task/head-mantisv2/optimizer.json",
+        "task_config": "configs/task/head-mantisv2/task_config.json"
+    },
+    "class": "Task",
+    "module": "src.task.task",
+    "config_name": "task",
+    "path": "configs/task/head-mantisv2/task.json"
+}

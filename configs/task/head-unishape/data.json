@@ -1,0 +1,15 @@
+{
+    "parameters": {
+        "lmdb_path": "dataset/lmdb_features_all",
+        "models": [
+            "unishape"
+        ],
+        "task": "all",
+        "val75_csv": "splits/val75_indices.csv",
+        "val25_csv": "splits/val25_indices.csv"
+    },
+    "class": "HARFeatureData",
+    "module": "src.data.data",
+    "config_name": "data",
+    "path": "configs/task/head-unishape/data.json"
+}

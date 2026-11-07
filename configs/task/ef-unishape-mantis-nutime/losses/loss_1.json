@@ -1,0 +1,7 @@
+{
+    "parameters": {},
+    "class": "ClassificationLoss",
+    "module": "src.loss.loss",
+    "config_name": "loss_1",
+    "path": "configs/task/ef-unishape-mantis-nutime/losses/loss_1.json"
+}

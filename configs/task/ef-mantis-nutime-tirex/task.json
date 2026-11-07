@@ -1,0 +1,14 @@
+{
+    "parameters": {
+        "model": "configs/task/ef-mantis-nutime-tirex/model.json",
+        "data": "configs/task/ef-mantis-nutime-tirex/data.json",
+        "loss": "configs/task/ef-mantis-nutime-tirex/loss.json",
+        "metric": "configs/task/ef-mantis-nutime-tirex/metric.json",
+        "optimizer": "configs/task/ef-mantis-nutime-tirex/optimizer.json",
+        "task_config": "configs/task/ef-mantis-nutime-tirex/task_config.json"
+    },
+    "class": "Task",
+    "module": "src.task.task",
+    "config_name": "task",
+    "path": "configs/task/ef-mantis-nutime-tirex/task.json"
+}

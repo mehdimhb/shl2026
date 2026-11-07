@@ -1,0 +1,14 @@
+{
+    "parameters": {
+        "model": "configs/task/ef-unishape-mantis-nutime/model.json",
+        "data": "configs/task/ef-unishape-mantis-nutime/data.json",
+        "loss": "configs/task/ef-unishape-mantis-nutime/loss.json",
+        "metric": "configs/task/ef-unishape-mantis-nutime/metric.json",
+        "optimizer": "configs/task/ef-unishape-mantis-nutime/optimizer.json",
+        "task_config": "configs/task/ef-unishape-mantis-nutime/task_config.json"
+    },
+    "class": "Task",
+    "module": "src.task.task",
+    "config_name": "task",
+    "path": "configs/task/ef-unishape-mantis-nutime/task.json"
+}

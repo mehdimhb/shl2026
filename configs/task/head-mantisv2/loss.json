@@ -1,0 +1,14 @@
+{
+    "parameters": {
+        "losses": [
+            "configs/task/head-mantisv2/losses/loss_1.json"
+        ],
+        "weights": [
+            1.0
+        ]
+    },
+    "class": "CompositeLoss",
+    "module": "src.loss.base",
+    "config_name": "loss",
+    "path": "configs/task/head-mantisv2/loss.json"
+}

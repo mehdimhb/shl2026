@@ -1,0 +1,19 @@
+{
+    "parameters": {
+        "major_task": "early_fusion",
+        "minor_task": "ef-mantis-nutime-tirex",
+        "version": "paper",
+        "task_description": "",
+        "device": "cuda:0",
+        "experiments_dir": "experiments",
+        "batch_size": 128,
+        "num_workers": 2,
+        "shuffle": true,
+        "trm": false,
+        "n_supervision": 16
+    },
+    "class": "TaskConfig",
+    "module": "src.task.task_config",
+    "config_name": "task_config",
+    "path": "configs/task/ef-mantis-nutime-tirex/task_config.json"
+}

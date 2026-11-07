@@ -1,0 +1,14 @@
+{
+    "parameters": {
+        "model": "configs/task/ef-all-five/model.json",
+        "data": "configs/task/ef-all-five/data.json",
+        "loss": "configs/task/ef-all-five/loss.json",
+        "metric": "configs/task/ef-all-five/metric.json",
+        "optimizer": "configs/task/ef-all-five/optimizer.json",
+        "task_config": "configs/task/ef-all-five/task_config.json"
+    },
+    "class": "Task",
+    "module": "src.task.task",
+    "config_name": "task",
+    "path": "configs/task/ef-all-five/task.json"
+}

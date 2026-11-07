@@ -1,0 +1,7 @@
+{
+    "parameters": {},
+    "class": "HARF1Score",
+    "module": "src.metric.metrics",
+    "config_name": "eval_metrics_2",
+    "path": "configs/task/head-mantisv2/eval_metrics/eval_metrics_2.json"
+}

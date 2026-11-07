@@ -1,0 +1,21 @@
+{
+    "parameters": {
+        "num_channels": 9,
+        "unishape_dim": 128,
+        "mantis_dim": 256,
+        "dim": 128,
+        "num_classes": 8,
+        "num_layers": 4,
+        "num_heads": 4,
+        "mlp_ratio": 4.0,
+        "dropout": 0.1,
+        "models": [
+            "unishape"
+        ],
+        "mixup_alpha": 0.25
+    },
+    "class": "AttnClassifier",
+    "module": "src.model.classifier.attn_classifier",
+    "config_name": "model",
+    "path": "configs/task/head-unishape/model.json"
+}

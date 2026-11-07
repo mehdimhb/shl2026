@@ -1,0 +1,20 @@
+{
+    "parameters": {
+        "active_modalities": [
+            "unishape",
+            "mantis",
+            "nutime",
+            "trex"
+        ],
+        "num_channels": 9,
+        "dim": 128,
+        "num_classes": 8,
+        "num_heads": 4,
+        "dropout": 0.3,
+        "token_mask_prob": 0.2
+    },
+    "class": "Ensemble",
+    "module": "src.model.ensemble",
+    "config_name": "model",
+    "path": "configs/task/ef-unishape-mantis-nutime-tirex/model.json"
+}

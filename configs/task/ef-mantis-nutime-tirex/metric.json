@@ -1,0 +1,15 @@
+{
+    "parameters": {
+        "train_metrics": [
+            "configs/task/ef-mantis-nutime-tirex/eval_metrics/eval_metrics_1.json"
+        ],
+        "eval_metrics": [
+            "configs/task/ef-mantis-nutime-tirex/eval_metrics/eval_metrics_1.json",
+            "configs/task/ef-mantis-nutime-tirex/eval_metrics/eval_metrics_2.json"
+        ]
+    },
+    "class": "MetricSet",
+    "module": "src.metric.base",
+    "config_name": "metric",
+    "path": "configs/task/ef-mantis-nutime-tirex/metric.json"
+}

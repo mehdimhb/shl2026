@@ -1,0 +1,7 @@
+{
+    "parameters": {},
+    "class": "HARAccuracy",
+    "module": "src.metric.metrics",
+    "config_name": "train_metrics_1",
+    "path": "configs/task/head-mantisv2/eval_metrics/eval_metrics_1.json"
+}
